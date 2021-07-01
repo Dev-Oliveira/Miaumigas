@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?qys3ix');
-  src:  url('fonts/icomoon.eot?qys3ix#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?qys3ix') format('truetype'),
-    url('fonts/icomoon.woff?qys3ix') format('woff'),
-    url('fonts/icomoon.svg?qys3ix#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?wuirjj');
+  src:  url('fonts/icomoon.eot?wuirjj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wuirjj') format('truetype'),
+    url('fonts/icomoon.woff?wuirjj') format('woff'),
+    url('fonts/icomoon.svg?wuirjj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,30 +25,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-whatsapp:before {
+.icon-arrow-up:before {
   content: "\e900";
 }
-.icon-clear:before {
+.icon-whatsapp:before {
   content: "\e901";
 }
-.icon-youtube:before {
+.icon-clear:before {
   content: "\e902";
 }
-.icon-menu:before {
+.icon-youtube:before {
   content: "\e903";
 }
-.icon-map-pin:before {
+.icon-menu:before {
   content: "\e904";
 }
-.icon-mail:before {
+.icon-map-pin:before {
   content: "\e905";
 }
-.icon-instagram:before {
+.icon-mail:before {
   content: "\e906";
 }
-.icon-facebook:before {
+.icon-instagram:before {
   content: "\e907";
 }
-.icon-phone:before {
+.icon-facebook:before {
   content: "\e908";
+}
+.icon-phone:before {
+  content: "\e909";
 }
