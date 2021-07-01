@@ -1,0 +1,37 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d272f22c2bc49000f19eb4ab33ee1aa8") format("truetype"),
+url("./flaticon.woff?d272f22c2bc49000f19eb4ab33ee1aa8") format("woff"),
+url("./flaticon.woff2?d272f22c2bc49000f19eb4ab33ee1aa8") format("woff2"),
+url("./flaticon.eot?d272f22c2bc49000f19eb4ab33ee1aa8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d272f22c2bc49000f19eb4ab33ee1aa8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "kitty": "\f101",
+    "kitty-1": "\f102",
+    "kitty-2": "\f103",
+);
+
+.flaticon-kitty:before {
+    content: map-get($flaticon-map, "kitty");
+}
+.flaticon-kitty-1:before {
+    content: map-get($flaticon-map, "kitty-1");
+}
+.flaticon-kitty-2:before {
+    content: map-get($flaticon-map, "kitty-2");
+}
